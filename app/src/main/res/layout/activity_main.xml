@@ -11,7 +11,8 @@
     tools:context="com.example.robolectric.MainActivity">
 
     <TextView
+        android:id="@+id/main_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Robolectric" />
+        android:text="@string/text_view" />
 </RelativeLayout>
