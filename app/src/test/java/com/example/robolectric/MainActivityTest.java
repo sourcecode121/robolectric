@@ -11,7 +11,7 @@ import org.robolectric.annotation.Config;
 
 import static com.example.robolectric.support.Assert.assertViewIsVisible;
 import static com.example.robolectric.support.ResourceLocator.getString;
-import static com.example.robolectric.support.ResourceLocator.getTextView;
+import static com.example.robolectric.support.ViewLocator.getTextView;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.*;
 

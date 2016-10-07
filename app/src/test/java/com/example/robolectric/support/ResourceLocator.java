@@ -1,8 +1,5 @@
 package com.example.robolectric.support;
 
-import android.app.Activity;
-import android.widget.TextView;
-
 import org.robolectric.RuntimeEnvironment;
 
 /**
@@ -14,7 +11,4 @@ public class ResourceLocator {
         return RuntimeEnvironment.application.getString(stringId);
     }
 
-    public static TextView getTextView(Activity activity, int textViewId) {
-        return (TextView) activity.findViewById(textViewId);
-    }
 }
