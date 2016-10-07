@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Robolectric</string>
     <string name="text_view">Robolectric</string>
+    <string name="toast_message">Toast Message</string>
+    <string name="new_activity">New Activity</string>
+    <string name="message">This is the main activity</string>
 </resources>
